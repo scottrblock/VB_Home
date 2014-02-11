@@ -152,19 +152,19 @@
     <div class="container">
         <div class="row centered">
             <div class="col-sm-2 col-sm-offset-1">
-                <img src="assets/img/clients/c01.gif" alt="">
+                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/shell.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/clients/c02.gif" alt="">
+                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/techcocktail.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/clients/c03.gif" alt="">
+                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/incapital.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/clients/c04.gif" alt="">
+                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/diamondback.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/clients/c05.gif" alt="">
+                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/mtech.png" alt="">
             </div>
         </div><!-- row -->
     </div><!-- container -->
