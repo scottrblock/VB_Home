@@ -3,6 +3,8 @@
  */
 
 @import "bootstrap/bootstrap.less";
+@import "fontawesome/font-awesome.less";
+@import "grayscale.less";
 
 /* ==========================================================================
    Base
@@ -90,39 +92,119 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: @screen-lg-min) { }
 
 
-html, body {
-	height:100%;
-}
-
-.jumbotron {
-	height:100%;
-	width:100%;
-	margin-top:-50px;
-	background-image:url(../img/background.jpg);
-	background-position: center;
-	background-size: cover;
-}
-
-.jumbotron-inner {
-	height:100%;
-}
-
-
-.jumbotron-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 20%;
-  top: 20%;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #ffffff;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-
 footer {
 	margin: 50px 0;
 }
 
+
+.section-even {
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 400px;
+  background-color: @gray-lighter;
+  background-size: cover;
+}
+
+.section-odd {
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 400px;
+  background-color: #fff ;
+  background-size: cover;
+}
+
+.section-waitlist {
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 400px;
+  background: url(../img/white.jpg) no-repeat bottom center scroll;
+  background-color: @gray-dark;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  color: @gray-dark;
+}
+
+.section-featured {
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 200px;
+  background-color: @gray-lighter;
+  background-size: cover;
+}
+
+.centered {
+    text-align: center;
+}
+
+.extrapadding {
+  margin-top:40px;
+}
+
+.productfeaturecell{
+  height:175px;
+  margin-top:20px;
+}
+
+.intro-bottomthird p{
+  color:#fff;
+}
+
+
+/* Featurettes
+------------------------- */
+.featurette {
+  color:@gray-dark;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  line-height: 1;
+  text-transform: uppercase;
+  color: @gray-dark;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .featurette-heading {
+    color:@gray-dark;
+  }
+
+  .featurette p{
+    color:@gray-dark;
+  }
+
+  .featurette h1,h2,h3,h4,h5,h6{
+    color:@gray-dark;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+.productfeaturecell{
+  height:100px;
+  margin-top:0px;
+  }
+}

@@ -1,5 +1,5 @@
 <?php get_template_part('templates/head'); ?>
-<body <?php body_class(); ?>>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
@@ -7,15 +7,7 @@
     </div>
   <![endif]-->
 
-  <?php
-    do_action('get_header');
-    // Use Bootstrap's navbar if enabled in config.php
-    if (current_theme_supports('bootstrap-top-navbar')) {
-      get_template_part('templates/header-top-navbar');
-    } else {
-      get_template_part('templates/header');
-    }
-  ?>
+  <?php get_template_part('templates/header-top-navbar-home'); ?>
   <?php get_template_part('templates/front-page-intro'); ?>
   <?php get_template_part('templates/front-page-section2'); ?>
 

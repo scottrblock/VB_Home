@@ -18,7 +18,7 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #428bca;
+@brand-primary:         #009BEC;
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
@@ -39,8 +39,8 @@
 // Typography
 // -------------------------
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+@font-family-serif:       "Josefine", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
@@ -59,7 +59,7 @@
 @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
 @headings-font-family:    @font-family-base;
-@headings-font-weight:    500;
+@headings-font-weight:    100;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
 
@@ -122,6 +122,10 @@
 @btn-default-color:              #333;
 @btn-default-bg:                 #fff;
 @btn-default-border:             #ccc;
+
+@btn-intro-color:              	 #fff;
+@btn-intro-bg:                   transparent;
+@btn-intro-border:               #fff;
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
@@ -294,7 +298,7 @@
 //
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-bg:                         @gray-dark;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
