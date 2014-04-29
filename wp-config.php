@@ -20,7 +20,7 @@ define('DB_NAME', 'ventureboard_home');
 
 /** MySQL database username */
 define('DB_USER', 'ventureboard');
-
+  
 /** MySQL database password */
 define('DB_PASSWORD', 'thinkdifferent');
 
