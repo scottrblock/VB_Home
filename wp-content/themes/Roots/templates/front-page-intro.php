@@ -1,13 +1,11 @@
-<!-- Test the push 25 aaaasadjnkjas nkjdsns a time more -->
-
-<section class="intro testing ahhh testing testing">
+<section class="intro">
     <div class="intro-body">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 specialtop">
-                    <h1 class="brand-heading">Startup with VentureBoard</h1>
+                    <h1 class="brand-heading">Entrepreneurship Center in a box and much much more.</h1>
                     <br>
-                    <p class="page-scroll"><a href="#waitlist" class="btn btn-intro btn-lg">Get on the Waitlist!</a></p>
+                    <p class="page-scroll"><a href="#waitlist" class="btn btn-intro btn-lg">Get it at your school!</a></p>
                 </div>
             </div>
         </div>
@@ -21,14 +19,14 @@
                         <i class="fa fa-book fa-4x"></i>
                         </p>
                         <h2 class="page-scroll text-primary"><a href="#schools">Universities & Organizations</a></h2>
-                        <p>Manage, track, and advise startups.</p>
+                        <p class="lead ">Manage, track, and advise startups.</p>
                     </div>
                             
                         <!-- .col 6 -->
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
                         <p><i class="fa fa-users fa-4x"></i></p>
                         <h2 class="page-scroll text-primary"><a href="#students">Students & Entrepreneurs </a></h2>
-                            <p>Form a team, stay organized, build a business</p>
+                            <p class="lead">Form a team, stay organized, build a business</p>
                     </div>
                         <!-- .col 6 -->
                         </div>
@@ -71,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                  <img class="featurette-image img-responsive" src="/VB_wordpress/wp-content/themes/Roots/assets/img/vb_screen_analytics.png" alt="Generic placeholder image">
+                  <img class="featurette-image img-responsive" src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/vb_screen_analytics.png" alt="Generic placeholder image">
                 </div>
                 
           </div>
@@ -86,7 +84,7 @@
             </div>
             <div class="row featurette">
                 <div class="col-md-6 col-sm-6">
-                  <img class="featurette-image img-responsive" src="/VB_wordpress/wp-content/themes/Roots/assets/img/vb_screen_people.png" alt="Generic placeholder image">
+                  <img class="featurette-image img-responsive" src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/vb_screen_people.png" alt="Generic placeholder image">
                 </div>
                 <div class="col-md-6 col-sm-6 extrapadding ">
                     <div class="row">
@@ -115,36 +113,55 @@
         </div>
     </section>
 
+    <section id="currentcust" class="section-even">
+        <div class="container">
+            <div class="row">
+                <h1 class="featurette-heading text-center ">Some of our Happy Customers!</h1>
+            </div>
+            <div class="row centered specialpad">
+            <div class="col-sm-3 col-xs-6">
+                <img class="img-responsive" src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/umdsq.png" alt=""></a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img class="img-responsive" src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/ncstatesq.png" alt=""></a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img class="img-responsive" src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/vvfsq.png" alt=""></a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img class="img-responsive" src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/genoppsq.png" alt=""></a>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
 
     <section  id="waitlist" class="section-waitlist">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                <h3>Get it at your school!</h3>
-                <br>
-                <form role="form"  class="form-horizontal validate" action="http://ventureboard.us6.list-manage.com/subscribe/post?u=2502e218b9&amp;id=1780ed3aea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                <h1 class="featurette-heading text-center">Get it at your school!</h1>
+                <br><br>
+                <form role="form"  id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="https://ventureboard.wufoo.com/forms/zf1fzgp1jbhzc3/#public">
                     <div class="form-group">
-                        <label for="mce-FNAME" class="col-sm-2 control-label">First Name</label>
-                        <div class="col-sm-10"><input class="form-control col-sm-6" placeholder="First Name" type="text" name="FNAME" id="mce-FNAME">
-                    </div></div>
+                        <label class="sr-only" for="Field5">Name</label>
+                        <input class="form-control signupform " placeholder="Name" id="Field5" name="Field5" type="text" tabindex="1">
+                    </div>
                     <div class="form-group">
-                        <label for="mce-LNAME" class="col-sm-2 control-label">Last Name</label>
-                        <div class="col-sm-10"><input class="form-control col-sm-6" placeholder="Last Name" type="text" name="LNAME" id="mce-LNAME">
-                    </div></div>
+                        <label class="sr-only" for="Field9">School/Org</label>
+                        <input class="form-control signupform " id="Field9" name="Field9"  placeholder="School/Organization" type="text" tabindex="2">
+                    </div>
                     <div class="form-group">
-                        <label for="mce-SCHOOL" class="col-sm-2 control-label">School</label>
-                        <div class="col-sm-10"><input class="form-control col-sm-6" name="SCHOOL" id="mce-SCHOOL" placeholder="School" type="text">
-                    </div></div>
-                    <div class="form-group">
-                        <label for="mce-EMAIL" class="col-sm-2 control-label">Email</label>
-                        <div class="col-sm-10"><input class="form-control col-sm-6" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"placeholder="Email Address">
-                    </div></div>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2502e218b9_1780ed3aea" value=""></div>
-                    <input type="submit" value="Submit!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary pull-right">
+                        <label class="sr-only" for="Field6">Email address</label>
+                        <input class="form-control signupform "  value="" id="Field6" name="Field6" type="email" spellcheck="false" placeholder="Email Address" tabindex="3">
+                    </div>
+                    <div style="position: absolute; left: -5000px;"><input type="hidden" id="idstamp" name="idstamp" value="1lfrQM1VYnigp19GVdhCGdRryV/RdnuGTJYStM619Js=" /></div>
+                    <br><br>
+                    <div class="form-group text-center">
+                        <input id="saveForm" name="saveForm" value="   Submit   " type="submit" class="btn btn-signup">
+                    </div>
                 </form>
             </div>
         </div>
@@ -153,20 +170,23 @@
 <section  class="section-featured">
     <div class="container">
         <div class="row centered">
-            <div class="col-sm-2 col-sm-offset-1">
-                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/shell.png" alt="">
+            <div class="col-sm-2">
+                <a href="http://startupshell.org"><img src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/shell.png" alt=""></a>
             </div>
             <div class="col-sm-2">
-                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/techcocktail.png" alt="">
+                <a href="http://tech.co/ventureboard-resources-student-entrepreneurs-2012-09"><img src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/techcocktail.png" alt=""></a>
             </div>
             <div class="col-sm-2">
-                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/incapital.png" alt="">
+                <a href="http://inthecapital.streetwise.co/2012/11/15/umd-based-ventureboard-makes-it-easier-for-students-to-connect-build-and-launch-their-very-own-startup/"><img src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/incapital.png" alt=""></a>
             </div>
             <div class="col-sm-2">
-                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/diamondback.png" alt="">
+                <a href="http://www.diamondbackonline.com/news/campus/article_dad1d688-42f0-11e2-a209-001a4bcf6878.html"><img src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/diamondback.png" alt=""></a>
             </div>
             <div class="col-sm-2">
-                <img src="/VB_wordpress/wp-content/themes/Roots/assets/img/mtech.png" alt="">
+                <a href="http://www.mtech.umd.edu/news/press_releases/ventureboard_umd.html"><img src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/mtech.png" alt=""></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="http://www.washingtonpost.com/business/capitalbusiness/business-rx-ventureboard-seeks-advice-on-scaling-up/2014/02/21/2306ee98-9999-11e3-b88d-f36c07223d88_story.html"><img src="<?php echo get_bloginfo('url')?>/wp-content/themes/Roots/assets/img/wapo.png" alt=""></a>
             </div>
         </div><!-- row -->
     </div><!-- container -->

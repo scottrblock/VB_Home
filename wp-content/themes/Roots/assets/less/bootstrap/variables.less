@@ -127,6 +127,10 @@
 @btn-intro-bg:                   transparent;
 @btn-intro-border:               #fff;
 
+@btn-signup-color:               @gray-dark;
+@btn-signup-bg:                  transparent;
+@btn-signup-border:              @gray-dark;
+
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
@@ -153,15 +157,15 @@
 // Forms
 // -------------------------
 
-@input-bg:                       #fff;
-@input-bg-disabled:              @gray-lighter;
+@input-bg:                       transparent;
+@input-bg-disabled:              transparent;
 
-@input-color:                    @gray;
-@input-border:                   #ccc;
-@input-border-radius:            @border-radius-base;
-@input-border-focus:             #66afe9;
+@input-color:                    @gray-darker;
+@input-border:                   @gray-darker;
+@input-border-radius:            0;
+@input-border-focus:             @gray-darker;
 
-@input-color-placeholder:        @gray-light;
+@input-color-placeholder:        @gray;
 
 @input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 2);
 @input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);
@@ -177,12 +181,12 @@
 // Dropdowns
 // -------------------------
 
-@dropdown-bg:                    #fff;
+@dropdown-bg:                    @gray-dark;
 @dropdown-border:                rgba(0,0,0,.15);
 @dropdown-fallback-border:       #ccc;
-@dropdown-divider-bg:            #e5e5e5;
+@dropdown-divider-bg:            #gray;
 
-@dropdown-link-color:            @gray-dark;
+@dropdown-link-color:            #fff;
 @dropdown-link-hover-color:      darken(@gray-dark, 5%);
 @dropdown-link-hover-bg:         #f5f5f5;
 

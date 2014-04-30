@@ -25,9 +25,6 @@
                   <li><a href="http://uva.ventureboard.co/users/sign_in">UVA</a></li>
                   <li><a href="http://ncsu.ventureboard.co/users/sign_in">NC STATE</a></li>
                   <li><a href="http://libertydev.com/users/sign_in">LibertyDev</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Waitlist</li>
-                  <li><a href="#">Get VentureBoard!</a></li>
                 </ul>
               </li>
             </ul>
